@@ -10,7 +10,7 @@ h1 {
   background-color: #fff;
   top: 0;
   left: -1px;
-  padding: 10px 30px;
+  padding: 1px 30px;
   margin: 0;
   font-size: 15px;
   color: rgb(9, 102, 194);
@@ -32,6 +32,7 @@ h1 {
   font-size: 15px;
   background-color: rgb(238, 243, 248);
   color: rgb(96, 97, 99);
+  width: 280px;
 }
 
 .fa-search {
@@ -46,45 +47,38 @@ h1 {
   color: white;
 }
 
-.profile {
-  border-style: solid;
-  border-radius: 7px;
-  border-width: 1px;
+.profileSection {
   margin: 30px 20px;
-  margin-top: 8%;
-  padding: 20px;
+  margin-top: 10%;
+  padding: 0 20px;
 }
-.experience {
-  border-style: solid;
-  border-radius: 7px;
-  border-width: 1px;
-  margin: 15px 20px;
-  padding: 20px;
+.profile {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  padding-top: 10px;
 }
-.education {
-  border-style: solid;
-  border-radius: 7px;
-  border-width: 1px;
-  margin: 15px 20px;
-  padding: 20px;
+
+.backgroundImage {
+  background-color: rgb(160, 180, 183);
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
-.licenses {
-  border-style: solid;
-  border-radius: 7px;
-  border-width: 1px;
-  margin: 15px 20px;
-  padding: 20px;
+
+#divider {
+  width: 780px;
 }
-.skills {
-  border-style: solid;
-  border-radius: 7px;
-  border-width: 1px;
-  margin: 15px 20px;
-  padding: 20px;
-}
+
+.experience,
+.education,
+.licenses,
+.skills,
 .interests {
   border-style: solid;
-  border-radius: 7px;
+  border-color: rgb(220, 219, 217);
+  background-color: white;
+  border-radius: 10px;
   border-width: 1px;
   margin: 15px 20px;
   padding: 20px;
