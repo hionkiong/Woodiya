@@ -1,0 +1,87 @@
+h1 {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(243, 242, 240);
+  max-width: 100%;
+}
+
+.searchContainer {
+  display: inline-flex;
+  flex: 1 1 300px;
+  position: relative;
+  top: -15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 0px;
+  font-size: 20px;
+}
+.searchIcon {
+  padding: 0.5rem;
+  position: relative;
+  top: 20px;
+}
+
+.searchBox {
+  border: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+}
+
+.profile {
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  margin: 15px 20px;
+  margin-top: 8%;
+  padding: 20px;
+}
+.experience {
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  margin: 15px 20px;
+  padding: 20px;
+}
+.education {
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  margin: 15px 20px;
+  padding: 20px;
+}
+.licenses {
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  margin: 15px 20px;
+  padding: 20px;
+}
+.skills {
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  margin: 15px 20px;
+  padding: 20px;
+}
+.interests {
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  margin: 15px 20px;
+  padding: 20px;
+}
+
+#search-form {
+  display: inline;
+  position: relative;
+  left: 10px;
+}
