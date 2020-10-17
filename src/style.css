@@ -62,8 +62,19 @@ li {
   color: white;
 }
 
-.basicInfo {
+.profilePhoto {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  display: block;
   margin: 0 20px;
+  border: solid white 4px;
+}
+
+.basicInfo {
+  margin: 20px 20px;
 }
 
 .profileSection {
@@ -78,11 +89,16 @@ li {
   padding-top: 10px;
 }
 
-.backgroundImage {
+.backgroundImageTop {
   background-color: rgb(160, 180, 183);
   border-radius: 10px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+.backgroundImageBottom {
+  background-color: rgb(160, 180, 183);
+  border-radius: 0px;
 }
 
 #divider {
