@@ -31,7 +31,7 @@ li {
 }
 
 .barkedin-wrapper {
-  max-width: 790px;
+  width: 790px;
   margin: 0 auto;
 }
 
@@ -74,7 +74,7 @@ li {
 }
 
 .basicInfo {
-  margin: 20px 20px;
+  margin: 30px 20px;
 }
 
 .profileSection {
@@ -89,6 +89,10 @@ li {
   padding-top: 10px;
 }
 
+.profileSide {
+  margin-top: 10px;
+}
+
 .backgroundImageTop {
   background-color: rgb(160, 180, 183);
   border-radius: 10px;
@@ -99,10 +103,6 @@ li {
 .backgroundImageBottom {
   background-color: rgb(160, 180, 183);
   border-radius: 0px;
-}
-
-#divider {
-  min-width: 670px;
 }
 
 .experience,
@@ -119,8 +119,62 @@ li {
   padding: 20px;
 }
 
+.name {
+  font-size: 25px;
+}
+
+.position {
+  font-size: 18px;
+}
+
+.contactInfo {
+}
+
+.recentJobs {
+  margin-top: 20px;
+  font-weight: 600;
+  position: relative;
+  left: -25px;
+}
+
+.recentJobs img {
+  padding-right: 5px;
+}
+
+#divider {
+  min-width: 670px;
+}
+
 #search-form {
   display: inline;
   position: relative;
   left: 10px;
+}
+
+#messageButton {
+  background-color: rgb(9, 102, 194);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 18px;
+  padding: 4px 17px;
+  display: inline;
+  position: relative;
+  right: -15px;
+}
+
+#moreButton {
+  background-color: white;
+  color: rgb(97, 97, 97);
+  font-weight: 600;
+  border: solid 1px rgb(97, 97, 97);
+  border-radius: 18px;
+  padding: 3px 17px;
+  display: inline;
+  position: relative;
+  right: -20px;
+}
+
+#recentJobTop {
+  margin-bottom: 10px;
 }
