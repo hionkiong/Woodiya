@@ -15,9 +15,24 @@ h1 {
   font-size: 15px;
   color: rgb(9, 102, 194);
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
 .container-fluid {
   font-family: "Roboto", sans-serif;
   background-color: rgb(243, 242, 240);
+}
+
+.barkedin-wrapper {
+  max-width: 790px;
+  margin: 0 auto;
 }
 
 .searchContainer {
@@ -47,6 +62,10 @@ h1 {
   color: white;
 }
 
+.basicInfo {
+  margin: 0 20px;
+}
+
 .profileSection {
   margin: 30px 20px;
   margin-top: 10%;
@@ -67,7 +86,7 @@ h1 {
 }
 
 #divider {
-  width: 780px;
+  min-width: 670px;
 }
 
 .experience,
