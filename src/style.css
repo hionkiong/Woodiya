@@ -31,6 +31,7 @@ li {
 }
 
 .barkedin-wrapper {
+  min-width: 790px;
   width: 790px;
   margin: 0 auto;
 }
@@ -141,6 +142,14 @@ li {
   padding-right: 5px;
 }
 
+.titleExperience,
+.titleEducation,
+.titleLNC,
+.titleSNE,
+.titleInterests {
+  font-size: 20px;
+}
+
 #divider {
   min-width: 670px;
 }
@@ -177,4 +186,23 @@ li {
 
 #recentJobTop {
   margin-bottom: 10px;
+}
+
+#titleA,
+#titleB,
+#school {
+  font-weight: 600;
+}
+
+#organisationA,
+#organisationB {
+  font-size: 15px;
+}
+
+#periodA,
+#periodB,
+#periodC {
+  color: rgb(102, 102, 102);
+  font-size: 15px;
+  font-weight: 350;
 }
