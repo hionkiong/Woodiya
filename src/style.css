@@ -78,6 +78,11 @@ li {
   margin: 30px 20px;
 }
 
+.contactInfo {
+  color: rgb(9, 102, 194);
+  font-weight: bolder;
+}
+
 .profileSection {
   margin: 30px 20px;
   margin-top: 10%;
@@ -128,9 +133,6 @@ li {
   font-size: 18px;
 }
 
-.contactInfo {
-}
-
 .recentJobs {
   margin-top: 20px;
   font-weight: 600;
@@ -148,6 +150,19 @@ li {
 .titleSNE,
 .titleInterests {
   font-size: 20px;
+}
+
+.licenceFirst {
+  margin-top: 20px;
+}
+
+.skillsdetails {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.interestDetails {
+  margin: 32px;
 }
 
 #divider {
@@ -172,6 +187,10 @@ li {
   right: -15px;
 }
 
+#messageButton:hover {
+  background-color: rgb(1, 65, 130);
+}
+
 #moreButton {
   background-color: white;
   color: rgb(97, 97, 97);
@@ -182,6 +201,11 @@ li {
   display: inline;
   position: relative;
   right: -20px;
+}
+
+#moreButton:hover {
+  background-color: rgb(243, 243, 243);
+  border-width: 2px;
 }
 
 #recentJobTop {
@@ -205,4 +229,34 @@ li {
   color: rgb(102, 102, 102);
   font-size: 15px;
   font-weight: 350;
+}
+
+#catdogImage,
+#hotdogImage,
+#pooptimeImage {
+  padding: 0;
+  width: 80px;
+  height: 60px;
+}
+
+#likeButton {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(9, 102, 194);
+  background-color: white;
+  color: rgb(9, 102, 194);
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#likeButton:hover {
+  background-color: rgb(234, 244, 254);
+  border-width: 2px;
+  font-weight: bolder;
+}
+
+#interestImage {
+  margin-right: 30px;
 }
