@@ -156,13 +156,34 @@ li {
   margin-top: 20px;
 }
 
+.licenceDetails {
+  display: relative;
+  left: -25px;
+  top: -5px;
+  font-size: 14px;
+}
+
 .skillsdetails {
   margin-top: 20px;
   font-weight: bold;
 }
 
 .interestDetails {
-  margin: 32px;
+  margin: 15px;
+}
+
+.interestOne li,
+.interestTwo li,
+.interestThree li,
+.interestFour li,
+.interestFive li {
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+}
+
+#firstLine {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 #divider {
@@ -235,8 +256,7 @@ li {
 #hotdogImage,
 #pooptimeImage {
   padding: 0;
-  width: 80px;
-  height: 60px;
+  width: 60px;
 }
 
 #likeButton {
@@ -255,8 +275,4 @@ li {
   background-color: rgb(234, 244, 254);
   border-width: 2px;
   font-weight: bolder;
-}
-
-#interestImage {
-  margin-right: 30px;
 }
