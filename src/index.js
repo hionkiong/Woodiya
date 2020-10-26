@@ -12,3 +12,13 @@ function moreCodes(event) {
 
 let moreButton = document.querySelector("#moreButton");
 moreButton.addEventListener("click", moreCodes);
+
+function searchProfile(event) {
+  event.preventDefault();
+  let searchInput = document.querySelector("#search-profile-input").value;
+  window.open(
+    `https://www.linkedin.com/search/results/all/?keywords=${searchInput}&origin=GLOBAL_SEARCH_HEADER`
+  );
+}
+let searchForm = document.querySelector("#search-profile");
+searchForm.addEventListener("submit", searchProfile);

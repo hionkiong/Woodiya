@@ -292,3 +292,8 @@ li {
   border-width: 2px;
   font-weight: bolder;
 }
+
+#likeButton:focus {
+  outline: none;
+  box-shadow: none;
+}
