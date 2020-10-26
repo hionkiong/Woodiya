@@ -218,6 +218,11 @@ li {
   background-color: rgb(1, 65, 130);
 }
 
+#messageButton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 #moreButton {
   background-color: white;
   color: rgb(97, 97, 97);
@@ -233,6 +238,11 @@ li {
 #moreButton:hover {
   background-color: rgb(243, 243, 243);
   border-width: 2px;
+}
+
+#moreButton:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 #recentJobTop {
