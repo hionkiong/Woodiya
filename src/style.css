@@ -7,6 +7,7 @@ html {
 h1 {
   position: fixed;
   width: 100%;
+  height: 50px;
   background-color: #fff;
   top: 0;
   left: -1px;
@@ -30,10 +31,9 @@ li {
   background-color: rgb(243, 242, 240);
 }
 
-.barkedin-wrapper {
-  min-width: 790px;
+.barkedin-wrapper-whole {
   width: 790px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .searchContainer {
@@ -48,7 +48,9 @@ li {
   font-size: 15px;
   background-color: rgb(238, 243, 248);
   color: rgb(96, 97, 99);
-  width: 280px;
+  width: 40%;
+  max-width: 320px;
+  height: 35px;
 }
 
 .fa-search {
@@ -296,4 +298,6 @@ li {
 #likeButton:focus {
   outline: none;
   box-shadow: none;
+  color: rgb(102, 102, 102);
+  border-color: rgb(102, 102, 102);
 }

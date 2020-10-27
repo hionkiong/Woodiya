@@ -22,3 +22,11 @@ function searchProfile(event) {
 }
 let searchForm = document.querySelector("#search-profile");
 searchForm.addEventListener("submit", searchProfile);
+
+function liked(event) {
+  event.preventDefault();
+  likeButton.classList.add("active");
+}
+
+let likeButton = document.querySelector("#likeButton");
+likeButton.addEventListener("click", liked);
