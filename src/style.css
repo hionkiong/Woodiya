@@ -75,6 +75,7 @@ li {
   overflow: hidden;
   border-radius: 50%;
   position: absolute;
+  top: 180px;
   display: block;
   margin: 0 20px;
   border: solid white 4px;
